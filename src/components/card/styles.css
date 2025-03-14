@@ -1,0 +1,116 @@
+#card {
+  background-color: #f3f2f2;
+  border-radius: 6px 36px 6px 36px;
+  width: 100%;
+  max-width: 256px;
+  height: 310px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+#coffeeImg {
+  position: absolute;
+  top: -20px;
+}
+
+.tags-container {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tag {
+  display: flex;
+  align-items: center;
+}
+
+.tag span {
+  color: #c47f17;
+  background-color: #f1e9c9;
+  text-transform: uppercase;
+  padding: 4px 8px;
+  border-radius: 100px;
+  font-size: 10px;
+  line-height: 130%;
+  font-weight: 700;
+  margin-bottom: 16px;
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 20px;
+  line-height: 130%;
+  font-weight: 700;
+  color: #403937;
+  font-family: var(--baloo);
+  margin-bottom: 8px;
+}
+
+.description {
+  font-size: 14px;
+  font-weight: 400;
+  color: #8d8686;
+  line-height: 130%;
+  width: 100%;
+  max-width: 216px;
+  margin-bottom: 33px;
+  text-align: center;
+}
+
+#details {
+  display: flex;
+  align-items: center;
+}
+
+.price p {
+  font-size: 14px;
+  line-height: 130%;
+  color: #574f4d;
+
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-right: 23px;
+}
+
+.price strong {
+  color: #574f4d;
+  font-family: var(--baloo);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 130%;
+}
+
+#quantityButtons {
+  background-color: #e6e5e5;
+  border-radius: 6px;
+  padding: 8.5px 8px;
+  width: 100%;
+  max-width: 72px;
+
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-right: 8px;
+}
+
+#quantityButtons button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: #8047f8;
+  font-size: 14px;
+}
+
+.shoppingBtn {
+  background-color: #4b2995;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
