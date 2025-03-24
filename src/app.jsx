@@ -2,9 +2,7 @@ import { ShoppingCart, Timer, Package, Coffee } from "lucide-react";
 import coffeeImg from "./assets/coffee.svg";
 import { Header } from "./components/header";
 import { Card } from "./components/card";
-
 import data from "../data.json";
-
 export function App() {
   return (
     <>
@@ -49,8 +47,6 @@ export function App() {
       </main>
       <section>
         <h2>Nossos cafés</h2>
-
-        {/* COLOCAR A RENDERIZAÇÃO DOS CARDS AQUI */}
         <div className="grid">
           {data.coffees.map((coffe) => (
             <Card
